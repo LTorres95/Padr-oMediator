@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="435" viewBox="30 55 960 435">
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M1 1 L10 6 L1 11" fill="none" stroke="#222" stroke-width="1.5"/></marker>
+    <marker id="inherit" markerWidth="18" markerHeight="18" refX="16" refY="9" orient="auto"><path d="M1 1 L16 9 L1 17 Z" fill="white" stroke="#222" stroke-width="1.5"/></marker>
+  </defs>
+  <rect width="1000" height="610" fill="white"/>
+  <g font-family="Arial, sans-serif" fill="#222" text-anchor="middle">
+    <g fill="none" stroke="#222" stroke-width="1.7">
+      <path d="M280 210 L370 175" stroke-dasharray="7 5" marker-end="url(#arrow)"/>
+      <path d="M610 175 L700 210" stroke-dasharray="7 5" marker-end="url(#arrow)"/>
+      <path d="M170 370 L170 284" marker-end="url(#inherit)"/>
+      <path d="M820 370 L820 284" stroke-dasharray="7 5" marker-end="url(#inherit)"/>
+      <path d="M490 120 L490 85 L655 85 L655 150 L610 150" marker-end="url(#arrow)"/>
+      <path d="M820 370 L820 330 L970 330 L970 415 L930 415" marker-end="url(#arrow)"/>
+    </g>
+    <g fill="white" stroke="#222" stroke-width="1.7">
+      <rect x="60" y="180" width="220" height="100"/>
+      <path d="M60 240 H280 M60 260 H280"/>
+      <rect x="370" y="120" width="240" height="100"/>
+      <path d="M370 180 H610 M370 200 H610"/>
+      <rect x="700" y="180" width="240" height="100"/>
+      <path d="M700 240 H940 M700 260 H940"/>
+      <rect x="60" y="370" width="220" height="90"/>
+      <path d="M60 420 H280 M60 440 H280"/>
+      <rect x="710" y="370" width="220" height="90"/>
+      <path d="M710 420 H930 M710 440 H930"/>
+    </g>
+    <g font-size="17">
+      <text x="170" y="204">«abstract»</text>
+      <text x="820" y="204">«interface»</text>
+      <text x="629" y="142">1</text>
+      <text x="948" y="404">1</text>
+    </g>
+    <g font-size="20" font-weight="bold">
+      <text x="170" y="229" font-style="italic">Pessoa</text>
+      <text x="490" y="158">CentralAtendimento</text>
+      <text x="820" y="229">Departamento</text>
+      <text x="170" y="402">Cliente</text>
+      <text x="820" y="402">Suporte</text>
+    </g>
+  </g>
+</svg>
